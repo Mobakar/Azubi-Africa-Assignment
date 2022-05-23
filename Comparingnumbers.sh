@@ -1,7 +1,7 @@
 #!/in/bash
 
-read -p "Enter the first value:" X
-read -p "Enter the second value:" Y
+read -p "Enter the first number:" X
+read -p "Enter the second number:" Y
 
 if (( $X > $Y )); then
   printf "First Number is greater than Second Number"
